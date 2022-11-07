@@ -1,0 +1,112 @@
+.login {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  text-transform: capitalize;
+}
+/* .login__register {
+  position: absolute;
+  top: 4rem;
+  right: 6rem;
+} */
+
+.login__thumbnail {
+  flex: 1.2 1;
+}
+
+.login__thumbnail .bg-img {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 8rem;
+  border-bottom-right-radius: 8rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.login__container {
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+}
+.login .form {
+  padding: 4rem 3rem;
+  width: 70%;
+  margin-left: 4rem;
+  border-radius: 1rem;
+}
+.login .form p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-family: "Redressed", cursive;
+}
+.login .form__title {
+  font-size: 3.4rem;
+  margin-bottom: 2.4rem;
+  font-family: "Redressed", cursive;
+}
+.login .form__item {
+  margin-bottom: 2rem;
+}
+.login .form__item label {
+  font-size: 1.8rem;
+}
+.login .form__item input {
+  width: 100%;
+  height: 3.8rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.6rem;
+  padding-left: 1rem;
+  background-color: transparent;
+  font-size: 1.8rem;
+}
+.login .form__item input::placeholder {
+  font-size: 1.6rem;
+  color: #555;
+}
+.login .form__item input:invalid[focus="false"] ~ span {
+  display: block;
+}
+.login .form__item input ~ span {
+  color: red;
+  font-size: 1.1rem;
+  display: none;
+}
+.login .form__item select {
+  margin-left: 1.2rem;
+  background-color: #fff;
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+}
+.login .form__item select option {
+  background-color: #fff;
+}
+.login .form__item__profile {
+  margin-top: 0.8rem;
+  margin-bottom: 0.6rem;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: unset;
+}
+.login .form__item__profile img {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  object-fit: cover;
+  margin-left: 1.2rem;
+}
+.login .form__item__icon {
+  margin-left: 1.2rem;
+  font-size: 2rem !important;
+  cursor: pointer;
+}
+.login .form__btn {
+  text-align: center;
+  margin-top: 4rem;
+}
